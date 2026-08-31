@@ -11,6 +11,11 @@
   "desktop_entries": [
     "/usr/share/applications/freetube.desktop"
   ],
+  "form_factors": [
+    "desktop",
+    "phone",
+    "tablet"
+  ],
   "dependencies": [],
   "addons": [],
   "idle_time": 0,
@@ -46,7 +51,7 @@
     "env": [],
     "network": true,
     "process": false,
-    "userNamespaces": false,
+    "userNamespaces": true,
     "memoryMaxMB": 0,
     "cpuQuota": 0,
     "pidsMax": 0,

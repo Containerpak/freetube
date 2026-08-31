@@ -9,4 +9,5 @@ FROM ghcr.io/containerpak/gtk3:main
 RUN --mount=type=bind,from=source,source=/tmp/freetube.deb,target=/run/freetube.deb \
     apt-get update && \
     apt-get install -y /run/freetube.deb && \
+    rm -f /opt/FreeTube/chrome-sandbox && \
     cpak-clean-junk
