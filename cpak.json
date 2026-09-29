@@ -4,7 +4,7 @@
   "name": "FreeTube",
   "description": "Private YouTube desktop client.",
   "version": "0.25.2-beta",
-  "image": "ghcr.io/containerpak/freetube@sha256:275501d4d5ed82b8cf01239ae8fb7250e9260f4c9f9833aecfad2ab0f84ec17a",
+  "image": "ghcr.io/containerpak/freetube@sha256:0c17172dcd6427d739303e8891e8881ded38ddf2831d350452a22b79694760eb",
   "binaries": [
     "/usr/bin/freetube"
   ],
